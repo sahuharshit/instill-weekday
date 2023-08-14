@@ -19,12 +19,15 @@ export const VitalSignContainer = styled('div')(({ theme }) => ({
   },
 }));
 
-export const VitalSignCard = styled('div')(() => ({
-  width: 200,
+export const VitalSignCard = styled('div')(({ theme }) => ({
+  width: '100%',
   height: 240,
   borderRadius: 10,
   background: '#FAFAFA',
   padding: '16px',
+  [theme.breakpoints.up('md')]: {
+    width: 200,
+  },
 }));
 
 export const SenceStatus = styled('div')(() => ({
@@ -34,4 +37,14 @@ export const SenceStatus = styled('div')(() => ({
   padding: '8px 12px',
   display: 'flex',
   gap: '5px',
+}));
+
+export const SurveyCard = styled('div')(() => ({
+  borderRadius: '10px',
+  border: '1px solid rgba(0, 0, 0, 0.12)',
+  background: '#FFF',
+  padding: '30px',
+  flex: '1 1 25%',
+  width: '100%',
+  minWidth: '250px',
 }));

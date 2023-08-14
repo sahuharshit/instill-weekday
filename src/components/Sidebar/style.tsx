@@ -9,5 +9,5 @@ export const SidebarContainer = styled('div')(() => ({
   padding: '25px 10px',
   background: '#111',
   minHeight: '100vh',
-  height: '100%',
+  height: 'auto',
 }));

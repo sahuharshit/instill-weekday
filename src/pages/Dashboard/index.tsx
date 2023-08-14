@@ -3,9 +3,10 @@ import AppLayout from '@instill/layout/AppLayout';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
-import { LogoCircle } from './style';
 import VitalSigns from './components/VitalSigns';
 import InstillSense from './components/InstillSense';
+
+import { LogoCircle } from './style';
 
 function Dashboard() {
   return (

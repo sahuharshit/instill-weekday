@@ -2,6 +2,7 @@ import { Box, Card, CardContent, Typography } from '@mui/material';
 import SenceIcon from '@instill/assets/SenceIcon';
 import { SenceStatus } from '../style';
 import DonutChart from '@instill/components/DonutChart';
+import PulseSurvey from './PulseSurvey';
 
 const InstillSense = () => {
   return (
@@ -93,7 +94,9 @@ const InstillSense = () => {
         </CardContent>
       </Card>
       <Card sx={{ mt: 5, p: 5, width: '100%' }}>
-        <CardContent>sfkjklj</CardContent>
+        <CardContent>
+          <PulseSurvey />
+        </CardContent>
       </Card>
     </Box>
   );
