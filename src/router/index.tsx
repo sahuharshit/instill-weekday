@@ -1,12 +1,12 @@
 import { RouteObject, useRoutes } from 'react-router-dom';
 import { ROUTES } from '../constants/endpoint';
-import App from '../pages/App';
+import Dashboard from '../pages/Dashboard';
 import NotFound from '../pages/notFound';
 
 const allRoutes: RouteObject[] = [
   {
     path: ROUTES.APP_ROOT,
-    element: <App />,
+    element: <Dashboard />,
   },
   {
     path: '/*',

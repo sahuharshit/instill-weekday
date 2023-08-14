@@ -27,8 +27,8 @@ export const theme = extendTheme({
         common: {
           black: '#000',
           white: '#fff',
-          lightGrey: '#474747',
-          darkGrey: '#555',
+          lightGrey: '#666',
+          darkGrey: '#888',
           background: '#F5F7F9',
         },
         primary: {

@@ -11,12 +11,18 @@ export const Main = styled('div')(() => ({
   maxWidth: '100%',
 }));
 
-export const PageView = styled('div')(() => ({
+export const PageView = styled('div')(({ theme }) => ({
   width: '100%',
   marginRight: 'auto',
   marginLeft: 'auto',
-  paddingTop: '40px',
-  paddingBottom: '80px',
-  paddingRight: '80px',
-  paddingLeft: '80px',
+  paddingTop: '10px',
+  paddingBottom: '10px',
+  paddingRight: '10px',
+  paddingLeft: '10px',
+  [theme.breakpoints.up('md')]: {
+    paddingTop: '40px',
+    paddingBottom: '80px',
+    paddingRight: '80px',
+    paddingLeft: '80px',
+  },
 }));

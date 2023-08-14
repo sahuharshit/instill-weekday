@@ -1,0 +1,41 @@
+{
+    "dashboard": {
+        "vitalsign": [
+            {
+                "id": 1,
+                "name": "Inclusion",
+                "value": 25,
+                "stats": 25,
+                "status": "down"
+            },
+            {
+                "id": 2,
+                "name": "Trust",
+                "value": 85,
+                "stats": 15,
+                "status": "up"
+            },
+            {
+                "id": 3,
+                "name": "Psychological Safety",
+                "value": 60,
+                "stats": 5,
+                "status": "down"
+            },
+            {
+                "id": 4,
+                "name": "Innovation",
+                "value": 72,
+                "stats": 22,
+                "status": "up"
+            },
+            {
+                "id": 5,
+                "name": "Burnout",
+                "value": 38,
+                "stats": 25,
+                "status": "down"
+            }
+        ]
+    }
+}
