@@ -14,9 +14,9 @@ const InstillSense = () => {
       }}
       gap={5}
     >
-      <Card sx={{ mt: 5, p: 5, width: '100%' }}>
+      <Card sx={{ mt: 5, p: { md: 5, xs: 2 }, width: '100%' }}>
         <CardContent>
-          <Box display="flex" justifyContent="space-between">
+          <Box display="flex" justifyContent="space-between" flexDirection={{ md: 'row', xs: 'column' }} gap={2}>
             <Box>
               <SenceIcon />
               <br />
@@ -49,7 +49,7 @@ const InstillSense = () => {
             mt={4}
           >
             <Box>
-              <Typography fontWeight={600} pt={2} fontSize={24} lineHeight={'normal'}>
+              <Typography fontWeight={600} pt={2} fontSize={{ md: 24, xs: 18 }} lineHeight={'normal'}>
                 Upcoming Meetings
               </Typography>
               <Typography fontSize={40} fontWeight={600} lineHeight={'normal'}>
@@ -57,7 +57,7 @@ const InstillSense = () => {
               </Typography>
             </Box>
             <Box>
-              <Typography fontWeight={600} pt={2} fontSize={24} lineHeight={'normal'}>
+              <Typography fontWeight={600} pt={2} fontSize={{ md: 24, xs: 18 }} lineHeight={'normal'}>
                 New Summaries
               </Typography>
               <Typography fontSize={40} fontWeight={600} lineHeight={'normal'}>

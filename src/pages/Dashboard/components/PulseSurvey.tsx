@@ -7,7 +7,7 @@ const PulseSurvey = () => {
       <Typography color="common.lightGrey" sx={{ fontWeight: 500, textTransform: 'uppercase', lineHeight: '26px' }} gutterBottom>
         This month
       </Typography>
-      <Typography fontSize={40} fontWeight={500} lineHeight="normal">
+      <Typography fontSize={{ md: 40, xs: 24 }} fontWeight={500} lineHeight="normal">
         Pulse Survey
       </Typography>
       <Box display="flex" gap={2} flexWrap="wrap" mt={3}>

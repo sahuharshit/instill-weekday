@@ -7,6 +7,7 @@ import VitalSigns from './components/VitalSigns';
 import InstillSense from './components/InstillSense';
 
 import { LogoCircle } from './style';
+import ActionSteps from './components/ActionSteps';
 
 function Dashboard() {
   return (
@@ -40,6 +41,7 @@ function Dashboard() {
 
         <VitalSigns />
         <InstillSense />
+        <ActionSteps />
       </>
     </AppLayout>
   );
