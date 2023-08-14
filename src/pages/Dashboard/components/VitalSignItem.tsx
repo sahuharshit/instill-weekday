@@ -2,7 +2,7 @@ import jsonData from '@instill/Mock/data.json';
 import DonutChart from '@instill/components/DonutChart';
 import Box from '@mui/material/Box';
 
-import { VitalSignCard, VitalSignContainer } from './style';
+import { VitalSignCard, VitalSignContainer } from '../style';
 import Typography from '@mui/material/Typography';
 
 const VitalSignItem = () => {

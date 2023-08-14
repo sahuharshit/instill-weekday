@@ -1,10 +1,11 @@
-import { Apple } from '@instill/assets/Apple';
+import { AppleIcon } from '@instill/assets/AppleIcon';
 import AppLayout from '@instill/layout/AppLayout';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
 import { LogoCircle } from './style';
-import VitalSigns from './VitalSigns';
+import VitalSigns from './components/VitalSigns';
+import InstillSense from './components/InstillSense';
 
 function Dashboard() {
   return (
@@ -12,7 +13,7 @@ function Dashboard() {
       <>
         <Box display={'flex'} gap={2} alignItems={'center'}>
           <LogoCircle>
-            <Apple />
+            <AppleIcon />
           </LogoCircle>
           <Typography variant="h1" component="h2" sx={{ textTransform: 'uppercase', fontWeight: 600 }}>
             Apple Culture Dashboard
@@ -35,7 +36,9 @@ function Dashboard() {
           </Typography>
           <Typography color="common.darkGrey">CEO, Apple Inc</Typography>
         </Box>
+
         <VitalSigns />
+        <InstillSense />
       </>
     </AppLayout>
   );

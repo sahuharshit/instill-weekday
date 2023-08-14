@@ -1,11 +1,11 @@
 import ReactApexChart from 'react-apexcharts';
 
-const DonutChart = ({ val = 50 }: { val: number }) => {
+const DonutChart = ({ val = 50, color = '#111111' }: { val: number; color?: string }) => {
   const series = [val];
 
   const options = {
     fill: {
-      colors: ['#111111'],
+      colors: [color],
     },
     plotOptions: {
       radialBar: {

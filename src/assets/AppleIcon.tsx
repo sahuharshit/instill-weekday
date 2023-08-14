@@ -1,4 +1,4 @@
-export const Apple = () => {
+export const AppleIcon = () => {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width="27" height="32" viewBox="0 0 27 32" fill="none">
       <g clipPath="url(#clip0_403_2546)">

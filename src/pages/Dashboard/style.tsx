@@ -26,3 +26,12 @@ export const VitalSignCard = styled('div')(() => ({
   background: '#FAFAFA',
   padding: '16px',
 }));
+
+export const SenceStatus = styled('div')(() => ({
+  borderRadius: '10px',
+  background: 'rgba(110, 210, 156, 0.10)',
+  alignSelf: 'baseline',
+  padding: '8px 12px',
+  display: 'flex',
+  gap: '5px',
+}));
