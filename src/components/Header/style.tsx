@@ -20,7 +20,7 @@ export const StyledInputBase = styled(InputBase)(({ theme }) => ({
     transition: theme.transitions.create('width'),
     display: 'none',
     [theme.breakpoints.up('md')]: {
-      width: '20ch',
+      width: '35ch',
       display: 'block',
     },
   },
