@@ -13,6 +13,7 @@ interface IPorps {
 }
 
 const Sidebar = ({ open, toggle }: IPorps) => {
+  /* checking if the user is accessing the application from an iOS device */
   const iOS = typeof navigator !== 'undefined' && /iPad|iPhone|iPod/.test(navigator.userAgent);
 
   const isMobileMode = useMediaQuery(theme.breakpoints.down('sm'));

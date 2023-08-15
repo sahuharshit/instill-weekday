@@ -1,7 +1,7 @@
 import { styled } from '@mui/material/styles';
 
-export const LogoCircle = styled('div')(() => ({
-  background: 'white',
+export const LogoCircle = styled('div')(({ theme }) => ({
+  background: theme.palette.common.white,
   border: '1px solid rgba(0, 0, 0, 0.10)',
   borderRadius: '87px',
   boxShadow: '0px 4px 8px 0px rgba(22, 16, 91, 0.05)',
@@ -39,10 +39,10 @@ export const SenceStatus = styled('div')(() => ({
   gap: '5px',
 }));
 
-export const SurveyCard = styled('div')(() => ({
+export const SurveyCard = styled('div')(({ theme }) => ({
   borderRadius: '10px',
   border: '1px solid rgba(0, 0, 0, 0.12)',
-  background: '#FFF',
+  background: theme.palette.common.white,
   padding: '30px',
   flex: '1 1 25%',
   width: '100%',

@@ -6,8 +6,6 @@ const ENDPOINT = {
 
 export const ROUTES = {
   APP_ROOT: '/',
-  SIGNUP: '/signup',
-  LOGIN: '/login',
 } as const;
 
 export default ENDPOINT;
