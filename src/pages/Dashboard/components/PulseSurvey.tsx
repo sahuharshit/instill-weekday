@@ -78,11 +78,11 @@ const PulseSurvey = () => {
           </Typography>
         </SurveyCard>
 
-        <SurveyCard>
+        <SurveyCard sx={{ background: 'rgba(255, 110, 110, 0.06)' }}>
           <Typography fontWeight={600} pb={2}>
             Performance Feedback
           </Typography>
-          <Typography fontSize={40} color={'#111'} fontWeight={600} lineHeight={'normal'} pb={2}>
+          <Typography fontSize={40} color={'#FF3B6B'} fontWeight={600} lineHeight={'normal'} pb={2}>
             4.5
             <Typography component="span" fontSize={16} fontWeight={400}>
               /10
@@ -96,6 +96,7 @@ const PulseSurvey = () => {
             </Typography>
           </Typography>
         </SurveyCard>
+
         <Typography fontSize={14} pt={2}>
           900 Employees{' '}
           <svg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">

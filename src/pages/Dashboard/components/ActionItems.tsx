@@ -26,7 +26,7 @@ const ActionItems = () => {
             </Typography>
           </Box>
         </Box>
-        <Button sx={{ background: '#333', color: '#fff', borderRadius: '100px', p: '11px 24px', textTransform: 'uppercase', fontWeight: 600, fontSize: 14 }}>
+        <Button sx={{ background: '#333', color: '#fff', borderRadius: '100px', p: '5px 24px', textTransform: 'uppercase', fontWeight: 600, fontSize: 14 }}>
           Take action
         </Button>
       </Box>
@@ -53,7 +53,7 @@ const ActionItems = () => {
             </Typography>
           </Box>
         </Box>
-        <Button sx={{ background: '#333', color: '#fff', borderRadius: '100px', p: '11px 24px', textTransform: 'uppercase', fontWeight: 600, fontSize: 14 }}>
+        <Button sx={{ background: '#333', color: '#fff', borderRadius: '100px', p: '5px 24px', textTransform: 'uppercase', fontWeight: 600, fontSize: 14 }}>
           Take action
         </Button>
       </Box>
@@ -80,7 +80,7 @@ const ActionItems = () => {
             </Typography>
           </Box>
         </Box>
-        <Button sx={{ background: '#333', color: '#fff', borderRadius: '100px', p: '11px 24px', textTransform: 'uppercase', fontWeight: 600, fontSize: 14 }}>
+        <Button sx={{ background: '#333', color: '#fff', borderRadius: '100px', p: '5px 24px', textTransform: 'uppercase', fontWeight: 600, fontSize: 14 }}>
           Take action
         </Button>
       </Box>

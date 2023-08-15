@@ -36,7 +36,7 @@ const DonutChart = ({ val = 50, color = '#111111' }: { val: number; color?: stri
     },
   };
 
-  return <ReactApexChart options={options} series={series} type="radialBar" width={160} height={160} />;
+  return <ReactApexChart options={options} series={series} type="radialBar" height={160} />;
 };
 
 export default DonutChart;

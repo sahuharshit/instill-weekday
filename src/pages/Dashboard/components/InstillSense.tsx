@@ -77,15 +77,15 @@ const InstillSense = () => {
               justifyContent={'space-between'}
               mt={2}
             >
-              <Box textAlign="center">
+              <Box textAlign="center" flex="1 1 0">
                 <DonutChart val={62} color="#6ED29C" />
                 Positive
               </Box>
-              <Box textAlign="center">
+              <Box textAlign="center" flex="1 1 0">
                 <DonutChart val={30} color="#FBBF24" />
                 Neutral
               </Box>
-              <Box textAlign="center">
+              <Box textAlign="center" flex="1 1 0">
                 <DonutChart val={8} color="#FF3B6B" />
                 Negative
               </Box>
